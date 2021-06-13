@@ -222,6 +222,7 @@ public class flyswattingScript : MonoBehaviour {
     }
     
     void Swat (int p) {
+		Audio.PlaySoundAtTransform("oof", transform);
         if (answers[p] == 1) {
             Debug.LogFormat("[Flyswatting #{0}] You swatted fly {1}. That is correct.", moduleId, chosens[p]);
             answers[p] = 0;
@@ -324,6 +325,7 @@ public class flyswattingScript : MonoBehaviour {
                     if (flyX[e] > (light[0] - 0.01f) && flyZ[e] > (light[1] - 0.01f)) {
                         status[e] = 1;
                         FlyTexts[e].text = " ";
+						Audio.PlaySoundAtTransform("oof", transform);
                     }
                 } else if (status[e] == 1) {
                     flyZ[e] -= 0.01f;
