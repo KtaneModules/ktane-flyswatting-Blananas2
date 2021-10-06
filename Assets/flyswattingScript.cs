@@ -47,116 +47,116 @@ public class flyswattingScript : MonoBehaviour {
     void Start () {
         ix = UnityEngine.Random.Range(0,110);
         switch (ix) {
-            case 0: numbers = "013"; letters = "FKG"; break;
-            case 1: numbers = "014"; letters = "FKNAXO"; break;
-            case 2: numbers = "015"; letters = "FCNPBY"; break;
-            case 3: numbers = "016"; letters = "FCTZV"; break;
-            case 4: numbers = "017"; letters = "FQCHM"; break;
-            case 5: numbers = "018"; letters = "FQWS"; break;
-            case 6: numbers = "023"; letters = "FKG"; break;
-            case 7: numbers = "024"; letters = "FKNAXUGOR"; break;
-            case 8: numbers = "025"; letters = "FKCNAPUXOBEYI"; break;
-            case 9: numbers = "026"; letters = "FKCNAPXTZBLV"; break;
-            case 10: numbers = "027"; letters = "FQKCNHAPTM"; break;
-            case 11: numbers = "028"; letters = "FQKWCNHSJ"; break;
-            case 12: numbers = "029"; letters = "FQK"; break;
-            case 13: numbers = "034"; letters = "NAUXOR"; break;
-            case 14: numbers = "035"; letters = "CNAUPXOBERYI"; break;
-            case 15: numbers = "036"; letters = "CNAUPTXOZBEYLV"; break;
-            case 16: numbers = "037"; letters = "QCNHAUPXTMOZBD"; break;
-            case 17: numbers = "038"; letters = "QWCNHASJPUTX"; break;
-            case 18: numbers = "039"; letters = "QWCNAU"; break;
-            case 19: numbers = "045"; letters = "CPBEYI"; break;
-            case 20: numbers = "046"; letters = "CPTZBELYVI"; break;
-            case 21: numbers = "047"; letters = "QCHPTMZBEDYL"; break;
-            case 22: numbers = "048"; letters = "QWCHSJPTMZB"; break;
-            case 23: numbers = "049"; letters = "QWCHPE"; break;
-            case 24: numbers = "056"; letters = "TZLV"; break;
-            case 25: numbers = "057"; letters = "QHTMZDLV"; break;
-            case 26: numbers = "058"; letters = "QWHSJTMZDL"; break;
-            case 27: numbers = "059"; letters = "QWHTZ"; break;
-            case 28: numbers = "067"; letters = "QHMD"; break;
-            case 29: numbers = "068"; letters = "QWHSJMD"; break;
-            case 30: numbers = "069"; letters = "QWHJMD"; break;
-            case 31: numbers = "078"; letters = "WSJ"; break;
-            case 32: numbers = "079"; letters = "WSJ"; break;
-            case 33: numbers = "124"; letters = "GUR"; break;
-            case 34: numbers = "125"; letters = "KAUXOEI"; break;
-            case 35: numbers = "126"; letters = "KNAPXBL"; break;
-            case 36: numbers = "127"; letters = "KNAPT"; break;
-            case 37: numbers = "128"; letters = "KCNHJ"; break;
-            case 38: numbers = "129"; letters = "FQK"; break;
-            case 39: numbers = "134"; letters = "GUR"; break;
-            case 40: numbers = "135"; letters = "KAGUXOERI"; break;
-            case 41: numbers = "136"; letters = "KNAGUPXOBEYL"; break;
-            case 42: numbers = "137"; letters = "KNAGUPXTOBZD"; break;
-            case 43: numbers = "138"; letters = "KCNHAGJUPTX"; break;
-            case 44: numbers = "139"; letters = "FQKWCNAGU"; break;
-            case 45: numbers = "145"; letters = "KAXOEI"; break;
-            case 46: numbers = "146"; letters = "KNAPXOBELYI"; break;
-            case 47: numbers = "147"; letters = "KNAPTXOZBEDLY"; break;
-            case 48: numbers = "148"; letters = "KCNHAJPXTMZBOE"; break;
-            case 49: numbers = "149"; letters = "FQKWCNAHPXOE"; break;
-            case 50: numbers = "156"; letters = "NPBLY"; break;
-            case 51: numbers = "157"; letters = "NPTZBDLYV"; break;
-            case 52: numbers = "158"; letters = "CNHJPTMZBDLY"; break;
-            case 53: numbers = "159"; letters = "FQWCNHPTZBY"; break;
-            case 54: numbers = "167"; letters = "TZDV"; break;
-            case 55: numbers = "168"; letters = "CHJTMZDV"; break;
-            case 56: numbers = "169"; letters = "FQWCHJTMZDV"; break;
-            case 57: numbers = "178"; letters = "CHJM"; break;
-            case 58: numbers = "179"; letters = "FQWCHSJM"; break;
-            case 59: numbers = "189"; letters = "FQWS"; break;
-            case 60: numbers = "235"; letters = "GR"; break;
-            case 61: numbers = "236"; letters = "GUOEY"; break;
-            case 62: numbers = "237"; letters = "GUXOZBD"; break;
-            case 63: numbers = "238"; letters = "AGUPTX"; break;
-            case 64: numbers = "239"; letters = "WCNAGU"; break;
-            case 65: numbers = "245"; letters = "GR"; break;
-            case 66: numbers = "246"; letters = "GUOERYI"; break;
-            case 67: numbers = "247"; letters = "GUXOZBERDLY"; break;
-            case 68: numbers = "248"; letters = "AGUPXTMZBEOR"; break;
-            case 69: numbers = "249"; letters = "WCNHAGUPXOER"; break;
-            case 70: numbers = "256"; letters = "UOEYI"; break;
-            case 71: numbers = "257"; letters = "UXOZBEDLYVI"; break;
-            case 72: numbers = "258"; letters = "AUPTXMOZBDELYI"; break;
-            case 73: numbers = "259"; letters = "WCNHAPUTXZBOEYI"; break;
-            case 74: numbers = "267"; letters = "XZBDLV"; break;
-            case 75: numbers = "268"; letters = "APTXMZBDLV"; break;
-            case 76: numbers = "269"; letters = "WCNHAJPXTMZBDLV"; break;
-            case 77: numbers = "278"; letters = "APTM"; break;
-            case 78: numbers = "279"; letters = "WCNHASJPTM"; break;
-            case 79: numbers = "289"; letters = "WCNHSJ"; break;
-            case 80: numbers = "346"; letters = "RI"; break;
-            case 81: numbers = "347"; letters = "ERLY"; break;
-            case 82: numbers = "348"; letters = "MOZBER"; break;
-            case 83: numbers = "349"; letters = "HPXOER"; break;
-            case 84: numbers = "356"; letters = "RI"; break;
-            case 85: numbers = "357"; letters = "ERLYVI"; break;
-            case 86: numbers = "358"; letters = "MOZBERDLYI"; break;
-            case 87: numbers = "359"; letters = "HPTXOZBERYI"; break;
-            case 88: numbers = "367"; letters = "ELYV"; break;
-            case 89: numbers = "368"; letters = "MOZBDELYV"; break;
-            case 90: numbers = "369"; letters = "HJPTXMOZBDELYV"; break;
-            case 91: numbers = "378"; letters = "MOZBD"; break;
-            case 92: numbers = "379"; letters = "HSJPEXMOZBD"; break;
-            case 93: numbers = "389"; letters = "HSJPTX"; break;
-            case 94: numbers = "457"; letters = "VI"; break;
-            case 95: numbers = "458"; letters = "DLYI"; break;
-            case 96: numbers = "459"; letters = "TZBYI"; break;
-            case 97: numbers = "467"; letters = "VI"; break;
-            case 98: numbers = "468"; letters = "DLYVI"; break;
-            case 99: numbers = "469"; letters = "JTMZBDLYVI"; break;
-            case 100: numbers = "478"; letters = "DLY"; break;
-            case 101: numbers = "479"; letters = "SJTMZB"; break;
-            case 102: numbers = "489"; letters = "DLY"; break;
-            case 103: numbers = "568"; letters = "V"; break;
-            case 104: numbers = "569"; letters = "JMDLV"; break;
-            case 105: numbers = "578"; letters = "V"; break;
-            case 106: numbers = "579"; letters = "SJMDV"; break;
-            case 107: numbers = "589"; letters = "SJMDL"; break;
-            case 108: numbers = "679"; letters = "S"; break;
-            case 109: numbers = "689"; letters = "S"; break;
+            case 0: numbers = "013"; letters = "FKG"; break; //yep
+            case 1: numbers = "014"; letters = "FKNAXO"; break; //yep
+            case 2: numbers = "015"; letters = "FCNPBY"; break; //yep
+            case 3: numbers = "016"; letters = "FCTZV"; break; //yep
+            case 4: numbers = "017"; letters = "FQCHM"; break; //yep
+            case 5: numbers = "018"; letters = "FQWS"; break; //yep
+            case 6: numbers = "023"; letters = "FKG"; break; //yep
+            case 7: numbers = "024"; letters = "FKNAXUGOR"; break; //yep
+            case 8: numbers = "025"; letters = "FKCNAPUXOBEYI"; break; //yep
+            case 9: numbers = "026"; letters = "FKCNAPXTZBLV"; break; //yep
+            case 10: numbers = "027"; letters = "FQKCNHAPTM"; break; //yep
+            case 11: numbers = "028"; letters = "FQKWCNHSJ"; break; //yep
+            case 12: numbers = "029"; letters = "FQK"; break; //yep
+            case 13: numbers = "034"; letters = "NAUXOR"; break; //yep
+            case 14: numbers = "035"; letters = "CNAUPXOBERYI"; break; //yep
+            case 15: numbers = "036"; letters = "CNAUPTXOZBEYLV"; break;  //yep
+            case 16: numbers = "037"; letters = "QCNHAUPXTMOZBD"; break; //yep
+            case 17: numbers = "038"; letters = "QWCNHASJPUTX"; break; //yep
+            case 18: numbers = "039"; letters = "QWCNAU"; break; //yep
+            case 19: numbers = "045"; letters = "CPBEYI"; break; //yep
+            case 20: numbers = "046"; letters = "CPTZBELYVI"; break; //yep
+            case 21: numbers = "047"; letters = "QCHPTMZBEDYL"; break; //yep
+            case 22: numbers = "048"; letters = "QWCHSJPTMZBE"; break; //yep
+            case 23: numbers = "049"; letters = "QWCHPE"; break; //yep
+            case 24: numbers = "056"; letters = "TZLV"; break; //yep
+            case 25: numbers = "057"; letters = "QHTMZDLV"; break; //yep
+            case 26: numbers = "058"; letters = "QWHSJTMZDL"; break; //yep
+            case 27: numbers = "059"; letters = "QWHTZ"; break; //yep
+            case 28: numbers = "067"; letters = "QHMD"; break; //yep
+            case 29: numbers = "068"; letters = "QWHSJMD"; break; //yep
+            case 30: numbers = "069"; letters = "QWHJMD"; break; //yep
+            case 31: numbers = "078"; letters = "WSJ"; break; //yep
+            case 32: numbers = "079"; letters = "WSJ"; break; //yep
+            case 33: numbers = "124"; letters = "GUR"; break; //yep
+            case 34: numbers = "125"; letters = "KAUXOEI"; break; //yep
+            case 35: numbers = "126"; letters = "KNAPXBL"; break; //yep
+            case 36: numbers = "127"; letters = "KNAPT"; break; //yep
+            case 37: numbers = "128"; letters = "KCNHJ"; break; //yep
+            case 38: numbers = "129"; letters = "FQK"; break; //yep
+            case 39: numbers = "134"; letters = "GUR"; break; //yep
+            case 40: numbers = "135"; letters = "KAGUXOERI"; break; //yep
+            case 41: numbers = "136"; letters = "KNAGUPXOBEYL"; break; //yep
+            case 42: numbers = "137"; letters = "KNAGUPXTOBZD"; break; //yep
+            case 43: numbers = "138"; letters = "KCNHAGJUPTX"; break; //yep
+            case 44: numbers = "139"; letters = "FQKWCNAGU"; break; //yep
+            case 45: numbers = "145"; letters = "KAXOEI"; break; //yep
+            case 46: numbers = "146"; letters = "KNAPXOBELYI"; break; //yep
+            case 47: numbers = "147"; letters = "KNAPTXOZBEDLY"; break; //yep
+            case 48: numbers = "148"; letters = "KCNHAJPXTMZBOE"; break; //yep
+            case 49: numbers = "149"; letters = "FQKWCNAHPXOE"; break; //yep
+            case 50: numbers = "156"; letters = "NPBLY"; break; //yep
+            case 51: numbers = "157"; letters = "NPTZBDLYV"; break; //yep
+            case 52: numbers = "158"; letters = "CNHJPTMZBDLY"; break; //yep
+            case 53: numbers = "159"; letters = "FQWCNHPTZBY"; break; //yep
+            case 54: numbers = "167"; letters = "TZDV"; break; //yep
+            case 55: numbers = "168"; letters = "CHJTMZDV"; break; //yep
+            case 56: numbers = "169"; letters = "FQWCHJTMZDV"; break; //yep
+            case 57: numbers = "178"; letters = "CHJM"; break; //yep
+            case 58: numbers = "179"; letters = "FQWCHSJM"; break; //yep
+            case 59: numbers = "189"; letters = "FQWS"; break; //yep
+            case 60: numbers = "235"; letters = "GR"; break; //yep
+            case 61: numbers = "236"; letters = "GUOEY"; break; //yep
+            case 62: numbers = "237"; letters = "GUXOZBD"; break; //yep
+            case 63: numbers = "238"; letters = "AGUPTX"; break; //yep
+            case 64: numbers = "239"; letters = "WCNAGU"; break; //yep
+            case 65: numbers = "245"; letters = "GR"; break; //yep
+            case 66: numbers = "246"; letters = "GUOERYI"; break; //yep
+            case 67: numbers = "247"; letters = "GUXOZBERDLY"; break; //yep
+            case 68: numbers = "248"; letters = "AGUPXTMZBEOR"; break; //yep
+            case 69: numbers = "249"; letters = "WCNHAGUPXOER"; break; //yep
+            case 70: numbers = "256"; letters = "UOEYI"; break; //yep
+            case 71: numbers = "257"; letters = "UXOZBEDLYVI"; break; //yep
+            case 72: numbers = "258"; letters = "AUPTXMOZBDELYI"; break; //yep
+            case 73: numbers = "259"; letters = "WCNHAPUTXZBOEYI"; break; //yep
+            case 74: numbers = "267"; letters = "XZBDLV"; break; //yep
+            case 75: numbers = "268"; letters = "APTXMZBDLV"; break; //yep
+            case 76: numbers = "269"; letters = "WCNHAJPXTMZBDLV"; break; //yep
+            case 77: numbers = "278"; letters = "APTM"; break; //yep
+            case 78: numbers = "279"; letters = "WCNHASJPTM"; break; //yep
+            case 79: numbers = "289"; letters = "WCNHSJ"; break; //yep
+            case 80: numbers = "346"; letters = "RI"; break; //yep
+            case 81: numbers = "347"; letters = "ERLY"; break; //yep
+            case 82: numbers = "348"; letters = "MOZBER"; break; //yep
+            case 83: numbers = "349"; letters = "HPXOER"; break; //yep
+            case 84: numbers = "356"; letters = "RI"; break; //yep
+            case 85: numbers = "357"; letters = "ERLYVI"; break; //yep
+            case 86: numbers = "358"; letters = "MOZBERDLYI"; break; //yep
+            case 87: numbers = "359"; letters = "HPTXOZBERYI"; break; //yep
+            case 88: numbers = "367"; letters = "ELYV"; break; //yep
+            case 89: numbers = "368"; letters = "MOZBDELYV"; break; //yep
+            case 90: numbers = "369"; letters = "HJPTXMOZBDELYV"; break; //yep
+            case 91: numbers = "378"; letters = "MOZBD"; break; //yep
+            case 92: numbers = "379"; letters = "HSJPTXMOZBD"; break; //yep
+            case 93: numbers = "389"; letters = "HSJPTX"; break; //yep
+            case 94: numbers = "457"; letters = "VI"; break; //yep
+            case 95: numbers = "458"; letters = "DLYI"; break; //yep
+            case 96: numbers = "459"; letters = "TZBYI"; break; //yep
+            case 97: numbers = "467"; letters = "VI"; break; //yep
+            case 98: numbers = "468"; letters = "DLYVI"; break; //yep
+            case 99: numbers = "469"; letters = "JTMZBDLYVI"; break; //yep
+            case 100: numbers = "478"; letters = "DLY"; break; //yep
+            case 101: numbers = "479"; letters = "SJTMZBDLY"; break; //yep
+            case 102: numbers = "489"; letters = "SJTMZB"; break; //yep
+            case 103: numbers = "568"; letters = "V"; break; //yep
+            case 104: numbers = "569"; letters = "JMDLV"; break; //yep
+            case 105: numbers = "578"; letters = "V"; break; //yep
+            case 106: numbers = "579"; letters = "SJMDLV"; break; //yep
+            case 107: numbers = "589"; letters = "SJMDL"; break; //yep
+            case 108: numbers = "679"; letters = "S"; break; //yep
+            case 109: numbers = "689"; letters = "S"; break; //yep
         }
 
         ord = UnityEngine.Random.Range(0,6);
