@@ -499,6 +499,7 @@ GameObject:
   - component: {fileID: 114853960920223876}
   - component: {fileID: 114139553842080666}
   - component: {fileID: 114426815712387538}
+  - component: {fileID: 114024206229177918}
   m_Layer: 0
   m_Name: flyswatting
   m_TagString: Untagged
@@ -1952,6 +1953,18 @@ MonoBehaviour:
   AllowSelectionWrapY: 0
   ForceSelectionHighlight: 0
   ForceInteractionHighlight: 0
+--- !u!114 &114024206229177918
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1676409040304040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adf69c2de51bd3c43bbd9bc22578ee08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _seed: 1
 --- !u!114 &114088928713270928
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2166,6 +2179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bomb: {fileID: 114454383462897410}
   Audio: {fileID: 114915473299363512}
+  RuleSeedable: {fileID: 114024206229177918}
   NumberTexts:
   - {fileID: 102682052189013604}
   - {fileID: 102870915756868936}
